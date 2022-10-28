@@ -1,5 +1,5 @@
 baseURL = 'https://acatejr.github.io/boomi/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Boomi Training Notes'
 publishDir = 'docs'
 theme = 'ananke'
