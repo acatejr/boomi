@@ -1,2 +1,1 @@
-# boomi
-My Boomi training notes.
+# Boomi Training
