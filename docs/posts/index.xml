@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Boomi Training Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2022 14:28:02 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 14:49:09 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Environments</title>
+      <link>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-environments/</link>
+      <pubDate>Fri, 28 Oct 2022 14:49:09 -0700</pubDate>
+      
+      <guid>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-environments/</guid>
+      <description>An envrionment is a workspace created by users for testing or production. An unlimited number of environments can be created.
+It is a boomi recommendation to create an environment for Test and Production.
+A runtime engine powers the program while it is running.
+Atom Cloud is the runtime engine used in this training.</description>
+    </item>
+    
     <item>
       <title>Understanding Atom Clouds</title>
       <link>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-atom-clouds/</link>
