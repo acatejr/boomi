@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Working With Shapes | Boomi Training Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Shapes Steps linked together to form the business logic for a process Start shape is automatically added to a new processes Start shape cannot be removed There are 4 start shape types: Connector - gets data into the process using an application or technology connectors Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT Data passthrough - gets data into process from a parent or another external source No data - process does not receive data from a source, but a single, empty document goes through the process flow Display name - if not entered, name of the selected shape appears on the shape Process Structure and Design Connector shape get data into or send data out of the process Connectors contain all information needed to connect to a data source or applicication.">
+    <meta name="generator" content="Hugo 0.105.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/boomi/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Working With Shapes" />
+<meta property="og:description" content="Shapes Steps linked together to form the business logic for a process Start shape is automatically added to a new processes Start shape cannot be removed There are 4 start shape types: Connector - gets data into the process using an application or technology connectors Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT Data passthrough - gets data into process from a parent or another external source No data - process does not receive data from a source, but a single, empty document goes through the process flow Display name - if not entered, name of the selected shape appears on the shape Process Structure and Design Connector shape get data into or send data out of the process Connectors contain all information needed to connect to a data source or applicication." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://acatejr.github.io/boomi/posts/integration-essentials/working-with-shapes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-31T09:07:39-07:00" />
+<meta property="article:modified_time" content="2022-10-31T09:07:39-07:00" />
+
+<meta itemprop="name" content="Working With Shapes">
+<meta itemprop="description" content="Shapes Steps linked together to form the business logic for a process Start shape is automatically added to a new processes Start shape cannot be removed There are 4 start shape types: Connector - gets data into the process using an application or technology connectors Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT Data passthrough - gets data into process from a parent or another external source No data - process does not receive data from a source, but a single, empty document goes through the process flow Display name - if not entered, name of the selected shape appears on the shape Process Structure and Design Connector shape get data into or send data out of the process Connectors contain all information needed to connect to a data source or applicication."><meta itemprop="datePublished" content="2022-10-31T09:07:39-07:00" />
+<meta itemprop="dateModified" content="2022-10-31T09:07:39-07:00" />
+<meta itemprop="wordCount" content="511">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Working With Shapes"/>
+<meta name="twitter:description" content="Shapes Steps linked together to form the business logic for a process Start shape is automatically added to a new processes Start shape cannot be removed There are 4 start shape types: Connector - gets data into the process using an application or technology connectors Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT Data passthrough - gets data into process from a parent or another external source No data - process does not receive data from a source, but a single, empty document goes through the process flow Display name - if not entered, name of the selected shape appears on the shape Process Structure and Design Connector shape get data into or send data out of the process Connectors contain all information needed to connect to a data source or applicication."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/boomi/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Boomi Training Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Working With Shapes</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-10-31T09:07:39-07:00">October 31, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="shapes">Shapes</h2>
+<ul>
+<li>Steps linked together to form the business logic for a process</li>
+<li>Start shape is automatically added to a new processes</li>
+<li>Start shape cannot be removed</li>
+<li>There are 4 start shape types:
+<ul>
+<li>Connector - gets data into the process using an application or technology connectors</li>
+<li>Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT</li>
+<li>Data passthrough - gets data into process from a parent or another external source</li>
+<li>No data - process does not receive data from a source, but a single, empty document goes through the process flow</li>
+</ul>
+</li>
+<li>Display name - if not entered, name of the selected shape appears on the shape</li>
+</ul>
+<h2 id="process-structure-and-design">Process Structure and Design</h2>
+<ul>
+<li>Connector shape get data into or send data out of the process</li>
+<li>Connectors contain all information needed to connect to a data source or applicication.</li>
+<li>connectors have two parts: Connection and Operation
+<ul>
+<li>Connection - physical connection information</li>
+<li>Operation - function to call or file(s) to act upon (the how)</li>
+</ul>
+</li>
+<li>Connector Types:
+<ul>
+<li>Technology connectors - internal systems components that provide codeless connection to and from touchpoint systems using various prototols like Disk V2, Database, Http Client, and SFTP</li>
+</ul>
+</li>
+<li>Application Connectors - refer to packaged integration services containing a branded AtomSphere connector built through the Boomi connector</li>
+<li>Custom Connectors - you can develop, deploy, and publish custom connectors.  Custtom connectors take advantage of Boomi Connector API using Connector SDK</li>
+</ul>
+<h2 id="understanding-the-ftp-v2-connector">Understanding the FTP V2 Connector</h2>
+<ul>
+<li>Use this connector to download or upload files to an FTP-enabled server</li>
+<li>Opens a data connection session with an FTP server</li>
+<li>The connection contains info to log in to the ftp server</li>
+<li>The operation defines how to interact with the ftp server</li>
+<li>FTP V2 Actions:
+<ul>
+<li>Create - creates files on the ftp server or updates files</li>
+<li>Query - downloads files from the ftp server</li>
+<li>Delete - deletes files from an ftp server</li>
+<li>Get - retrieves a single file from an ftp server</li>
+</ul>
+</li>
+<li>Disk V2 Actions
+<ul>
+<li>Create - generates new files if they do not already exist and returns new ID of the inserted object</li>
+<li>Delete - removes the file from the directory.  The ID specifies the record to delete</li>
+<li>Get - retrieves objects that match the input filename ID</li>
+<li>List - retrieves files within a directory</li>
+<li>Listen - waites for and retrieves files from a given directory on the disk in the underlying file system</li>
+<li>Query - reads a set of files within a directory based on search criteria</li>
+</ul>
+</li>
+<li>Set Properites Shape
+<ul>
+<li>Properties to set are connected to a specific property (e.g., static file name)</li>
+<li>Parameters define the value of the given property.  Allow you to add multiple parameter values to concatentate a more complex value with dynamic content</li>
+</ul>
+</li>
+<li>Choose Property Dialog
+<ul>
+<li>Property type - contains desired property type.  Valid operations are document property, dynamic document property, dynamic process property, MIME, and process property</li>
+<li>Source type - contains the source defining the document properties.  You select a specific connector and its associate properties</li>
+<li>Connectors - contains the connector defining your property</li>
+<li>Property - the property setting the parameters</li>
+</ul>
+</li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://acatejr.github.io/boomi/" >
+    &copy;  Boomi Training Notes 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

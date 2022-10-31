@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Boomi Training Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2022 14:49:09 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 09:07:39 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working With Shapes</title>
+      <link>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-shapes/</link>
+      <pubDate>Mon, 31 Oct 2022 09:07:39 -0700</pubDate>
+      
+      <guid>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-shapes/</guid>
+      <description>Shapes Steps linked together to form the business logic for a process Start shape is automatically added to a new processes Start shape cannot be removed There are 4 start shape types: Connector - gets data into the process using an application or technology connectors Trading partner - gets data into process for a specific trading partner and handles common EDI doc standarts like X12 or EDIFACT Data passthrough - gets data into process from a parent or another external source No data - process does not receive data from a source, but a single, empty document goes through the process flow Display name - if not entered, name of the selected shape appears on the shape Process Structure and Design Connector shape get data into or send data out of the process Connectors contain all information needed to connect to a data source or applicication.</description>
+    </item>
+    
     <item>
       <title>Understanding Environments</title>
       <link>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-environments/</link>
