@@ -54,4 +54,3 @@ Understanding the FTP V2 Connector
     * Source type - contains the source defining the document properties.  You select a specific connector and its associate properties
     * Connectors - contains the connector defining your property
     * Property - the property setting the parameters
-    

@@ -6,7 +6,26 @@
     <description>Recent content on Boomi Training Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Oct 2022 09:07:39 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 13:45:59 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining Documents and Understanding Flow</title>
+      <link>https://acatejr.github.io/boomi/posts/integration-essentials/defining-documents-and-understanding-flow/</link>
+      <pubDate>Mon, 31 Oct 2022 13:45:59 -0700</pubDate>
+      
+      <guid>https://acatejr.github.io/boomi/posts/integration-essentials/defining-documents-and-understanding-flow/</guid>
+      <description>Documents A document is a set of data that flows through the Boomi process. It can be a single record, a group of records, or and entire file. Boomi supports the following document types: XML JSOn Flat File Database You can only use these documents or profile types in Atmosphere. Source files and destination files must be one of these types </description>
+    </item>
+    
+    <item>
+      <title>Running a Process in Test Mode</title>
+      <link>https://acatejr.github.io/boomi/posts/integration-essentials/running-a-process-in-test-mode/</link>
+      <pubDate>Mon, 31 Oct 2022 13:44:22 -0700</pubDate>
+      
+      <guid>https://acatejr.github.io/boomi/posts/integration-essentials/running-a-process-in-test-mode/</guid>
+      <description>Test mode allows you to quickly test processes from build page without deploying the process to an Atom.
+Provides immediate feedback during development Saves time and effort Test mode supports connector retrieval of 100 max document count or 10 MB total data size View logs and connection data after running test in test results window </description>
+    </item>
+    
     <item>
       <title>Working With Shapes</title>
       <link>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-shapes/</link>
