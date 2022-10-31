@@ -6,7 +6,17 @@
     <description>Recent content on Boomi Training Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Oct 2022 14:02:22 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 14:52:20 -0700</lastBuildDate><atom:link href="https://acatejr.github.io/boomi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping</title>
+      <link>https://acatejr.github.io/boomi/posts/integration-essentials/mapping/</link>
+      <pubDate>Mon, 31 Oct 2022 14:52:20 -0700</pubDate>
+      
+      <guid>https://acatejr.github.io/boomi/posts/integration-essentials/mapping/</guid>
+      <description>Mapping shows how elements in the source profile correspond with those in the destination profile.
+Mapping Methods Manual - you click and drag source profile elements to the corresponding destination profile element Boomi Suggest Wizard - Boomi makes mapping suggestions based on thousands of mappings loggged by the Boomi community Mapping Considerations Setting a Default Value AtomSphere assigns a default value to a dest. profile element when no value exists in source Need to create a defualt value if destination profile requires a field value that is not contained in the source profile Ways that maps use default values: Source profiles Element is null Elemet is blank Destination profiles Element is null Elemet is blank When you map a source element to a destination element with a default value the default value is not used </description>
+    </item>
+    
     <item>
       <title>Working With Profiles</title>
       <link>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-profiles/</link>
