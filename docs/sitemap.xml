@@ -1,45 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://acatejr.github.io/boomi/</loc>
-    <lastmod>2022-10-31T15:39:36-07:00</lastmod>
-  </url><url>
+    <lastmod>2022-11-01T09:43:05-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/</loc>
-    <lastmod>2022-10-31T15:39:36-07:00</lastmod>
-  </url><url>
+    <lastmod>2022-11-01T09:43:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acatejr.github.io/boomi/posts/associate-integration-developer/understanding-different-connector-types/</loc>
+    <lastmod>2022-11-01T09:43:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acatejr.github.io/boomi/posts/associate-integration-developer/introduction/</loc>
+    <lastmod>2022-11-01T08:34:26-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-undeploying/</loc>
     <lastmod>2022-10-31T15:39:36-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-process-reporting/</loc>
     <lastmod>2022-10-31T15:29:55-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/mapping/</loc>
     <lastmod>2022-10-31T14:52:20-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-profiles/</loc>
     <lastmod>2022-10-31T14:02:22-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/defining-documents-and-understanding-flow/</loc>
     <lastmod>2022-10-31T13:45:59-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/running-a-process-in-test-mode/</loc>
     <lastmod>2022-10-31T13:44:22-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/working-with-shapes/</loc>
     <lastmod>2022-10-31T09:07:39-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-environments/</loc>
     <lastmod>2022-10-28T14:49:09-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/integration-essentials/understanding-atom-clouds/</loc>
     <lastmod>2022-10-28T14:28:02-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/posts/first-post/</loc>
     <lastmod>2022-10-28T13:05:52-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://acatejr.github.io/boomi/tags/</loc>
   </url>
+  
 </urlset>
