@@ -92,4 +92,17 @@ The Decision shape routes documents based on a True/False comparison of two valu
     * Check for a specific value
 * Try to phrase a question in the shape's display name
 * Null values from a profile element or connector call are treated as empty strings (' ') for comparison. To compare against a null value in the inbound data, the Second Value field’s Static Value setting in the Decision shape should be left empty
-* Processes true documents before false
+* Decision shape psrocesses true documents before false
+
+Understanding the Stop Shape
+----------------------------
+The Stop shape terminates the data flow in a process path. It represents a successful conclusion and does not generate an error message.
+
+* Why use a Stop Shape?
+    * It is a Boomi recommended practice
+    * It intentionally signifies the end of a processing path
+
+Advanced Testing Techniques in Test Mode
+----------------------------------------
+When developing new processes, Test Mode is an important debugging tool. It allows you to update and debug your process quickly.
+
