@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Understanding Different Connector Types | Boomi Training Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Connectors are the main component that contain all the information needed to connect to a data source or application.
+Why Use Connectors? Simplifies application support: Automatically updates to new versions Protects data access using different authentication types Automatically discovers the recently supported objects in the application API Supports advanced options to fine-tune behaviour Highly configurable Allows configuration, based on use case Advanced options allow for additional specification Built-in data manipulation Automatically pages through large data sets and retrieves the entire data set from the API Optimizes data transfer and efficiency by splitting large files into smaller chunks Supports batches to improve efficiency and performance Real-time support Provides listener support Provides real-time data validation and integration, including communication with trading partners Connector Types: Application - targeted at one specific application Technology - implement a specific protocol Event-driving - a hybrid of application and technology used in event or message-driven scenarios Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs Configuring a Salesfroce Read Connector The Salesforce read connector retrieves information from a Salesforce account">
+    <meta name="generator" content="Hugo 0.105.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/boomi/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Understanding Different Connector Types" />
+<meta property="og:description" content="Connectors are the main component that contain all the information needed to connect to a data source or application.
+Why Use Connectors? Simplifies application support: Automatically updates to new versions Protects data access using different authentication types Automatically discovers the recently supported objects in the application API Supports advanced options to fine-tune behaviour Highly configurable Allows configuration, based on use case Advanced options allow for additional specification Built-in data manipulation Automatically pages through large data sets and retrieves the entire data set from the API Optimizes data transfer and efficiency by splitting large files into smaller chunks Supports batches to improve efficiency and performance Real-time support Provides listener support Provides real-time data validation and integration, including communication with trading partners Connector Types: Application - targeted at one specific application Technology - implement a specific protocol Event-driving - a hybrid of application and technology used in event or message-driven scenarios Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs Configuring a Salesfroce Read Connector The Salesforce read connector retrieves information from a Salesforce account" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://acatejr.github.io/boomi/posts/associate-integration-developer/understanding-different-connector-types/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-01T09:43:05-07:00" />
+<meta property="article:modified_time" content="2022-11-01T09:43:05-07:00" />
+
+<meta itemprop="name" content="Understanding Different Connector Types">
+<meta itemprop="description" content="Connectors are the main component that contain all the information needed to connect to a data source or application.
+Why Use Connectors? Simplifies application support: Automatically updates to new versions Protects data access using different authentication types Automatically discovers the recently supported objects in the application API Supports advanced options to fine-tune behaviour Highly configurable Allows configuration, based on use case Advanced options allow for additional specification Built-in data manipulation Automatically pages through large data sets and retrieves the entire data set from the API Optimizes data transfer and efficiency by splitting large files into smaller chunks Supports batches to improve efficiency and performance Real-time support Provides listener support Provides real-time data validation and integration, including communication with trading partners Connector Types: Application - targeted at one specific application Technology - implement a specific protocol Event-driving - a hybrid of application and technology used in event or message-driven scenarios Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs Configuring a Salesfroce Read Connector The Salesforce read connector retrieves information from a Salesforce account"><meta itemprop="datePublished" content="2022-11-01T09:43:05-07:00" />
+<meta itemprop="dateModified" content="2022-11-01T09:43:05-07:00" />
+<meta itemprop="wordCount" content="861">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Understanding Different Connector Types"/>
+<meta name="twitter:description" content="Connectors are the main component that contain all the information needed to connect to a data source or application.
+Why Use Connectors? Simplifies application support: Automatically updates to new versions Protects data access using different authentication types Automatically discovers the recently supported objects in the application API Supports advanced options to fine-tune behaviour Highly configurable Allows configuration, based on use case Advanced options allow for additional specification Built-in data manipulation Automatically pages through large data sets and retrieves the entire data set from the API Optimizes data transfer and efficiency by splitting large files into smaller chunks Supports batches to improve efficiency and performance Real-time support Provides listener support Provides real-time data validation and integration, including communication with trading partners Connector Types: Application - targeted at one specific application Technology - implement a specific protocol Event-driving - a hybrid of application and technology used in event or message-driven scenarios Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs Configuring a Salesfroce Read Connector The Salesforce read connector retrieves information from a Salesforce account"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/boomi/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Boomi Training Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Understanding Different Connector Types</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-11-01T09:43:05-07:00">November 1, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Connectors are the main component that <em>contain all the information</em> needed to connect to a data source or application.</p>
+<h2 id="why-use-connectors">Why Use Connectors?</h2>
+<ul>
+<li>Simplifies application support:
+<ul>
+<li>Automatically updates to new versions</li>
+<li>Protects data access using different authentication types</li>
+<li>Automatically discovers the recently supported objects in the application API</li>
+</ul>
+</li>
+<li>Supports advanced options to fine-tune behaviour
+<ul>
+<li>Highly configurable</li>
+<li>Allows configuration, based on use case</li>
+<li>Advanced options allow for additional specification</li>
+</ul>
+</li>
+<li>Built-in data manipulation
+<ul>
+<li>Automatically pages through large data sets and retrieves the entire data set from the API</li>
+<li>Optimizes data transfer and efficiency by splitting large files into smaller chunks</li>
+<li>Supports batches to improve efficiency and performance</li>
+</ul>
+</li>
+<li>Real-time support
+<ul>
+<li>Provides listener support</li>
+<li>Provides real-time data validation and integration, including communication with trading partners</li>
+</ul>
+</li>
+<li>Connector Types:
+<ul>
+<li>Application - targeted at one specific application</li>
+<li>Technology - implement a specific protocol</li>
+<li>Event-driving - a hybrid of application and technology used in event or message-driven scenarios</li>
+<li>Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs</li>
+</ul>
+</li>
+</ul>
+<h2 id="configuring-a-salesfroce-read-connector">Configuring a Salesfroce Read Connector</h2>
+<p>The Salesforce read connector retrieves information from a Salesforce account</p>
+<ul>
+<li>
+<p>Why Use a Salesforce Connector:</p>
+<ul>
+<li>Provides Connectivity protocols to any native Salesforce application.</li>
+<li>You can configure it with filters to limit the results returned.</li>
+<li>Can read related objects (children and/or parent processes) in the same operation</li>
+<li>Can sort results</li>
+</ul>
+</li>
+<li>
+<p>The SF connector is made up of the connection and the operation:</p>
+<ul>
+<li>The connection is where you provide the information for the SF account you are connecting to</li>
+<li>The operation is where you provide the information that tells AtomSphere how to retrieve the data from Salesforce</li>
+</ul>
+</li>
+<li>
+<p>Process shapes and components use parameters for dynamic configuration. Parameter values can represent data from a document field, current system date/time, static value, result of a connector call or database query,
+or a variety of other values</p>
+</li>
+<li>
+<p>Why Use Parameters?</p>
+<ul>
+<li>The provide the ability to dynamicallly pass values into numerouse shapes</li>
+<li>Cross reference lookup - retrieves value from a cross reference table component given one or more inputs</li>
+<li>Date/Time - allows you to choose date/time value</li>
+<li>Dynamic process property - use this param type to retrieve the value of a dynamic process property.  Be sure the name matches th enaove of the property used whent it was created</li>
+<li>Process property - used to retrieve the value of a process property.  Be sure name matches the name used when setting the property</li>
+<li>Sequential value - used to create and reference a counter to automatically increment with every execution</li>
+<li>Static - containts a hard-coded value</li>
+<li>Unique value - system generated number to guarantee uniqueness</li>
+</ul>
+</li>
+</ul>
+<h2 id="configuring-a-database-write-connector">Configuring a Database Write Connector</h2>
+<p>The database write connector <em>updates and deletes information</em> in a database table.</p>
+<ul>
+<li>Why use a database connector?
+<ul>
+<li>Stores database connection details in one location</li>
+<li>Uses a single interface to connect with an Java Database Connectivity (JDBC) relational database.  A few databases in the Connection tab&rsquo;s Drive Type drop-down have pre-loaded (packaged) JDBC drivers.</li>
+<li>Allows you to run diverse SQL operations on your database, including select, insert, update, delete and stored procedures</li>
+<li>Has two kinds of commit options:
+<ul>
+<li>Commit by number of rows</li>
+<li>Commit by profile</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="configuring-standard-and-user-defined-map-functions">Configuring Standard and User-Defined Map Functions</h2>
+<p>Map functions transform logic applied to individual field values hwen mapping and perform tasks such as converting a character to uppercase or changing the date format in the map.</p>
+<ul>
+<li>
+<p>Why use a Map Function?</p>
+<ul>
+<li>Less coding</li>
+<li>Reduces the number of map components available in the design to apply multiple standard functions to transform a single target value</li>
+<li>Provides the ability to apply complex logic using a combination of the standard function to achieve a single data that comply with the target data</li>
+</ul>
+</li>
+<li>
+<p>Types of Map Functions</p>
+<ul>
+<li>Standard - performs single step, like converting value to uppercase or performing mathematical operation</li>
+<li>User Defined - let&rsquo;s you linke multiple standard functions together.  Example, could get current date in one step, format it in second step. Can reuse these functions.</li>
+</ul>
+</li>
+<li>
+<p>Get Document Property is part of Propoerties Map Function</p>
+</li>
+</ul>
+<h2 id="understanding-the-decision-shape">Understanding the Decision Shape</h2>
+<p>The Decision shape routes documents based on a True/False comparison of two values.  True documents are processed before False documents.</p>
+<ul>
+<li>Uses of Decisions Shape
+<ul>
+<li>Check the existence of a record in the destination system to determine what to do next</li>
+<li>Check the existence of value in a given profile element</li>
+<li>Check for a specific value</li>
+</ul>
+</li>
+<li>Try to phrase a question in the shape&rsquo;s display name</li>
+<li>Null values from a profile element or connector call are treated as empty strings (&rsquo; &lsquo;) for comparison. To compare against a null value in the inbound data, the Second Value field’s Static Value setting in the Decision shape should be left empty</li>
+<li>Decision shape psrocesses true documents before false</li>
+</ul>
+<h2 id="understanding-the-stop-shape">Understanding the Stop Shape</h2>
+<p>The Stop shape terminates the data flow in a process path. It represents a successful conclusion and does not generate an error message.</p>
+<ul>
+<li>Why use a Stop Shape?
+<ul>
+<li>It is a Boomi recommended practice</li>
+<li>It intentionally signifies the end of a processing path</li>
+</ul>
+</li>
+</ul>
+<h2 id="advanced-testing-techniques-in-test-mode">Advanced Testing Techniques in Test Mode</h2>
+<p>When developing new processes, Test Mode is an important debugging tool. It allows you to update and debug your process quickly.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://acatejr.github.io/boomi/" >
+    &copy;  Boomi Training Notes 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -4,8 +4,8 @@ date: 2022-10-31T09:07:39-07:00
 draft: false
 ---
 
-Shapes
-------
+## Shapes
+
 * Steps linked together to form the business logic for a process
 * Start shape is automatically added to a new processes
 * Start shape cannot be removed
@@ -16,8 +16,7 @@ Shapes
     * No data - process does not receive data from a source, but a single, empty document goes through the process flow
 * Display name - if not entered, name of the selected shape appears on the shape
 
-Process Structure and Design  
-----------------------------  
+## Process Structure and Design    
 * Connector shape get data into or send data out of the process
 * Connectors contain all information needed to connect to a data source or applicication.
 * connectors have two parts: Connection and Operation
@@ -28,8 +27,7 @@ Process Structure and Design
 * Application Connectors - refer to packaged integration services containing a branded AtomSphere connector built through the Boomi connector
 * Custom Connectors - you can develop, deploy, and publish custom connectors.  Custtom connectors take advantage of Boomi Connector API using Connector SDK
 
-Understanding the FTP V2 Connector
-----------------------------------
+## Understanding the FTP V2 Connector
 * Use this connector to download or upload files to an FTP-enabled server
 * Opens a data connection session with an FTP server
 * The connection contains info to log in to the ftp server

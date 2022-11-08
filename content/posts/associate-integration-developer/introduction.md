@@ -3,8 +3,7 @@ title: "Introduction"
 date: 2022-11-01T08:34:26-07:00
 draft: false
 ---
-Objectives
-----------
+## Objectives
 * Build, test, and troubleshoot intermediate-level integration processes
 * Explain the Development Life Cycle
 * Manage and Schedule Processes

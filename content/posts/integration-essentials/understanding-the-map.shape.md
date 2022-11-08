@@ -5,8 +5,7 @@ draft: true
 ---
 Maps are used to convert from one format or profile to another.  
 
-Map Shapes
-----------
+## Map Shapes
 * Used to transform data from one format or profile to another
 * Source - each map has source profile, which is the input data located on left side of map
 * Profile element - a field in the profile.  Elements are both the source and desitinaion profiles

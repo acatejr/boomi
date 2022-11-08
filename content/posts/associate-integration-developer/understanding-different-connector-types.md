@@ -6,8 +6,7 @@ draft: false
 
 Connectors are the main component that *contain all the information* needed to connect to a data source or application.
 
-Why Use Connectors?
--------------------
+## Why Use Connectors?
 * Simplifies application support:
     * Automatically updates to new versions
     * Protects data access using different authentication types
@@ -29,8 +28,7 @@ Why Use Connectors?
     * Event-driving - a hybrid of application and technology used in event or message-driven scenarios
     * Custom - You can develop, deploy, and publish custom connectors by leveraging the Boomi Connector API using the Connector SDK and its companion SDK Javadocs
 
-Configuring a Salesfroce Read Connector
-----------------------------------------
+## Configuring a Salesfroce Read Connector
 The Salesforce read connector retrieves information from a Salesforce account
 
 * Why Use a Salesforce Connector:
@@ -56,8 +54,7 @@ or a variety of other values
     * Static - containts a hard-coded value
     * Unique value - system generated number to guarantee uniqueness
 
-Configuring a Database Write Connector
---------------------------------------
+## Configuring a Database Write Connector
 The database write connector *updates and deletes information* in a database table.
 
 * Why use a database connector?
@@ -68,8 +65,7 @@ The database write connector *updates and deletes information* in a database tab
         * Commit by number of rows
         * Commit by profile
 
-Configuring Standard and User-Defined Map Functions
----------------------------------------------------
+## Configuring Standard and User-Defined Map Functions
 Map functions transform logic applied to individual field values hwen mapping and perform tasks such as converting a character to uppercase or changing the date format in the map.
 
 * Why use a Map Function?
@@ -82,8 +78,7 @@ Map functions transform logic applied to individual field values hwen mapping an
 
 * Get Document Property is part of Propoerties Map Function
 
-Understanding the Decision Shape
---------------------------------
+## Understanding the Decision Shape
 The Decision shape routes documents based on a True/False comparison of two values.  True documents are processed before False documents.
 
 * Uses of Decisions Shape
@@ -94,15 +89,12 @@ The Decision shape routes documents based on a True/False comparison of two valu
 * Null values from a profile element or connector call are treated as empty strings (' ') for comparison. To compare against a null value in the inbound data, the Second Value field’s Static Value setting in the Decision shape should be left empty
 * Decision shape psrocesses true documents before false
 
-Understanding the Stop Shape
-----------------------------
+## Understanding the Stop Shape
 The Stop shape terminates the data flow in a process path. It represents a successful conclusion and does not generate an error message.
 
 * Why use a Stop Shape?
     * It is a Boomi recommended practice
     * It intentionally signifies the end of a processing path
 
-Advanced Testing Techniques in Test Mode
-----------------------------------------
+## Advanced Testing Techniques in Test Mode
 When developing new processes, Test Mode is an important debugging tool. It allows you to update and debug your process quickly.
-

@@ -16,8 +16,7 @@ Deployment is how you prepare your processes and deployable components to run an
     * Isolates the process version - Deployment isolates the version of processes running in runtime Environments from ongoing changes made in the Build tab
     * Complete audit history - Deployment provides a complete audit history for versioning
 
-Defining Packaged Components
-----------------------------
+## Defining Packaged Components
 When you create a packaged component or process, you take a snapshot of its development on the build tab. You typically do this when you are done building and are ready to deploy to your Environment.
 
 * Why Create a Packaged Component?
@@ -31,6 +30,5 @@ When you create a packaged component or process, you take a snapshot of its deve
     * You do create a new version number for each packaged component
     * A version is not just numeric, can be alphanumeric
 
-Defining Deployment
--------------------
+## Defining Deployment
 Deployment is how you prepare your processes and components to run and operate in a Test or Production Environment

@@ -5,8 +5,7 @@ draft: false
 ---
 Process Reporting is useful because it allows you to search for information about process executions and the documents associated with them.
 
-Uses
-----
+## Uses
 * Shows executed processes - by default, Process Reporting displays all deployed processes ran in the account within the past hour
 * Manually execute a process - manually execute an integration process from Process Reporting by selecting an Atom and the process
 * Filters process executions - process Manager filters executions by type, atom, time, and status
